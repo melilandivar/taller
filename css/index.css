@@ -1,0 +1,1057 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+body {
+  margin-top: 10px;
+  margin: 0px;
+  padding-right: 0px;
+  font-family: 'Poppins', sans-serif;
+  margin-right: inherit;
+}
+
+/* NAVEGADOR */
+.navbar {
+  width: 100%;
+  background-color: #FFFFFF;
+  display: flex;
+  height: 60px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+/* TITULO ICON*/
+.Vianfood {
+  padding-right: 1%;
+  text-align: center;
+  color: #000;
+  text-decoration: none;
+  font-size: 12px;
+  height: 55px;
+  margin-left: 20px;
+  transform: rotate(-90deg);
+  display: flex;
+}
+
+/* IMAGEN LOGO VIANFOOD */
+.navbar img {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  padding-top: 1%;
+}
+
+/*SECCIÓN TOP*/
+.cabezal {
+  font-weight: bold;
+  column-count: 2;
+  display: flex;
+  font-size: 2vw;
+  background-color: #F7FFE8;
+  /*background-image: url(../img/toodo.png);*/
+  height:
+
+}
+/* TEXTO DE OTRO COLOR */
+.saludable  {
+  color: #66A415;
+}
+.verdeO {
+  color: #586146;
+}
+.verdeC {
+  color: #8EAD49;
+}
+/*CABEZAL TEXTO*/
+.cont-1 {
+  font-family: 'Poppins', medium sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  text-align: inherit;
+  justify-content: center;
+
+}
+/*BOTON QUIERO*/
+.cabezal a {
+  text-decoration: none;
+}
+#botonQuiero {
+  font-family: 'Poppins', medium sans-serif;
+  margin: 20%;
+  margin-top: 0%!important;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1vw;
+  color: white;
+  width: 50%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: #66A415;
+  border-color: #d8d8d8;
+  border-width: 3px;
+  border-style: none;
+  border-radius: 35px;
+  box-shadow: 0px 3px 5px #c2c2c2;
+  display: flex;
+  justify-content: center;
+}
+.viandas {
+  font-size: 1.2vw;
+}
+/*FONDO PLATO IMAGEN*/
+#fondoVerde {
+  width: 35%;
+  height: 35%;
+  display: flex;
+  float: right;
+  margin: auto;
+  margin-top: 0px;
+  margin-right: 0px;
+
+}
+#plato {
+  display: none;
+}
+#f-onda {
+  display: none;
+}
+/*SECCIÓN MID*/
+section.cont-mid {
+  /*background-image: url(../img/fondo-c.png);*/
+  font-weight: bold;
+  column-count: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15%;
+  font-size: 2vw;
+}
+
+#elegirnos h3 {
+  font-weight: lighter;
+}
+.verduras {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  column-count: 2;
+  padding-top: 50px;
+}
+.verduras img {
+  width: 30%;
+  height: 30%;
+  padding-top: 60px;
+  float: right;
+}
+.verduras p {
+font-weight: lighter;
+font-size: 1.6vw;
+}
+.parrafo {
+  padding-left: 100px;
+  padding-top: 100px;
+}
+.parrafo2 {
+    padding-left: 200px;
+    text-align: end;
+}
+.plato2 {
+  padding-top: 100px;
+  display: flex;
+  column-count: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.plato2M {
+  display: none;
+}
+.plato2 img {
+  width: 35%;
+}
+.plato2 p {
+  padding-top: 35px;
+  font-weight: lighter;
+  font-size: 1.6vw;
+}
+.postres {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  column-count: 2;
+  padding-top: 50px;
+}
+
+.postres img {
+  width: 24%;
+  height: 24%;
+}
+.postres p {
+  font-weight: lighter;
+  font-size: 1.6vw;
+}
+
+.cards {
+  display: flex;
+  column-count: 2;
+  /* align-self: center; */
+  justify-content: space-evenly;
+  flex-direction: row;
+  /* align-items: center; */
+  text-align: center;
+  margin-top: 5%;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  transition: 0.3s;
+  width: 30%;
+  height: auto;
+  font-weight: lighter;
+  font-size: 1.6vw;
+  border-radius: 2%;
+  /* align-items: center; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+  font-size: 1.3vw;
+  text-align: center;
+}
+.card img {
+  width: 50%;
+  height: 47%;
+}
+.row {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.card-group1 {
+    max-width: 1150px;
+    display: flex;
+}
+.card-group1, .card-group2, .card-group3 {
+    place-items: center;
+}
+.row .col.m3 {
+    width: 25%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+.row .col.s12 {
+    width: 100%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+.row .col {
+    float: left;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 .75rem;
+    min-height: 1px;
+}
+.card-group1 .card {
+    flex: 1;
+    margin: 0 5px;
+    width: 235px;
+}
+.card {
+    position: relative;
+    margin: .5rem 0 1rem 0;
+    background-color: #fff;
+    -webkit-transition: -webkit-box-shadow .25s;
+    transition: -webkit-box-shadow .25s;
+    transition: box-shadow .25s;
+    transition: box-shadow .25s, -webkit-box-shadow .25s;
+    border-radius: 2px;
+}
+.carusel {
+  padding-top: 3%;
+}
+.carusel h4 {
+  padding: 2px 16px;
+  font-weight: lighter;
+  font-size: 2.3vw;
+  text-align: center;
+}
+#congeladas {
+  width: 50%;
+  height: 40%;
+  padding-bottom: 8%;
+}
+#comersano {
+  font-weight:normal;
+  font-size: 2vw;
+
+
+}
+#comersanoM {
+  display: none;
+}
+.c-sano {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.pasos {
+  column-count: 3;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  padding-top: 5%;
+}
+
+/*ELEGI */
+.elegi, .recibi, .disfruta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+}
+
+#elegiI {
+  width: 35%;
+  height: 35%;
+}
+
+#elegiT {
+  font-size: 1.3vw;
+  display: flex;
+}
+
+#elegiP {
+  font-size: 1.3vw;
+  text-align: center;
+}
+
+/*RECIBI */
+
+
+#recibiI {
+  width: 35%;
+  height: 35%;
+}
+
+#recibiT {
+  font-size: 1.3vw;
+}
+
+#recibiP {
+  font-size: 1.3vw;
+  text-align: center;
+}
+
+/*DISFRUTA */
+
+
+#disfrutaI {
+  width: 35%;
+  height: 35%;
+}
+
+#disfrutaT {
+  font-size: 1.3vw;
+}
+
+#disfrutaP {
+  font-size: 1.3vw;
+  text-align: center;
+}
+
+/*TEXTO FORMULARIO COMPLETA TUS DATOS*/
+.textoForm {
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.5vw;
+  padding-bottom: 0%;
+}
+
+#descuento {
+font-size: 1.3vw;
+font-weight: normal;
+}
+
+/*FORMULARIO*/
+
+section.cont-form {
+  padding-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* Style the container */
+#form {
+  border-radius: 50px;
+  background-color: #FFFFFF;
+  padding: 20px;
+  display: block;
+  padding-bottom: 8px;
+  text-align: left;
+  width: 30%;
+
+}
+
+/* Style inputs, select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%;
+  height: 35px;
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+input[type=email], select, textarea {
+  width: 100%;
+  height: 35px;
+  padding: 5px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+#veggie {
+  margin-bottom: 50px;
+  font-size: 1.2vw;
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  font-size: 1.3vw;
+}
+
+/* Style the submit button */
+input[type=button] {
+  background-color: #66A415;
+  height: 35px;
+  color: white;
+  padding-top:2px ;
+  padding-bottom: 2px;
+  margin-left: 50px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  font-family: 'Poppins', medium sans-serif;
+  font-size: 1.2vw;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+input {
+  width: 100%;
+}
+/*FOOTER*/
+.footer {
+  background-color: #8EAD49;
+  font-weight: lighter;
+  display: flex;
+  width: 100%;
+  font-size: 1.2vw;
+  margin-top: 5%;
+
+}
+
+#textofooter {
+  color: #fff;
+  margin-left: 200px;
+}
+
+.mensaje {
+  display: none;
+  background-color: #AED65A;
+  z-index: 1000;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+
+}
+
+.x {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 5%;
+
+}
+
+.x img {
+padding-top: 2%;
+  width: 25px;
+  height: 25px;
+}
+.t-cont {
+    font-size: 1.5vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.t-cont h3 {
+    font-size: 1.5vw;
+    padding-top: 2%;
+}
+.texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+img#logo-agradecimiento {
+    width: 70px;
+    height: 70px;
+    padding-top: 0px;
+}
+.texto h5 {
+    color: #DCFBB5;
+    font-size: 1.3vw;
+  }
+#listo {
+  color: white;
+  font-family: 'Poppins', medium sans-serif;
+  align-content: center;
+  display: block;
+
+}
+#breve {
+  color: white;
+  font-family: 'Poppins', medium sans-serif;
+  align-content: center;
+}
+.logoGracias {
+  color: #DCFBB5;
+  font-family: 'Poppins', medium sans-serif;
+  align-content: center;
+}
+.logoGracias img {
+  width: 55px;
+  height: 55px;
+  align-content: center;
+}
+
+
+
+
+/* RESPONSIVE MOBILE */
+@media screen and (max-width: 600px) {
+  mostrar();
+  .navbar a {
+    float: none;
+    display: block;
+  }
+  .navbar {
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    height: 70px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* TITULO ICON*/
+  .Vianfood {
+    float: left;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+    font-size: 12px;
+    height: 55px;
+    margin-left: 20px;
+    display: flex;
+    padding-right: 1%;
+    padding-top: 2%;
+  }
+
+  /* IMAGEN LOGO VIANFOOD */
+  .navbar img {
+    display: flex;
+
+    padding-top: 8px;
+    margin-left: 0px;
+    align-items: center;
+  }
+
+  /*SECCIÓN TOP*/
+  .cabezal {
+    font-weight: bold;
+    column-count: 2;
+    display: flex;
+    font-size: 5.6vw;
+    flex-direction: column;
+  }
+
+  /* TEXTO DE OTRO COLOR */
+  span {
+    color: #66A415;
+  }
+
+
+  /*CABEZAL TEXTO*/
+  .cont-1 {
+      font-family: 'Poppins', medium sans-serif;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      padding-top: 10%;
+  }
+.viandas {
+  padding-top: 150px;
+}
+.viandas h3 {
+  font-size: 20px;
+}
+  /*BOTON QUIERO*/
+  .viandas a {
+    text-decoration: none;
+    width: 100%;
+
+  }
+  #botonQuiero {
+    font-family: 'Poppins', medium sans-serif;
+    margin-left: 50px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    width: 50%;
+    height: 30px;
+    padding-top: 2%;
+    padding-bottom: 7%;
+    padding-right: 40px;
+    background-color: #66A415;
+    border-color: #d8d8d8;
+    border-width: 3px;
+    border-style: none;
+    border-radius: 35px;
+    box-shadow: 0px 3px 5px #c2c2c2;
+    display: flex;
+    justify-content: center;
+  }
+
+  /*FONDO PLATO IMAGEN*/
+  #plato {
+    width: 40%;
+    height: 40%;
+    display: flex;
+    margin: auto;
+    padding-bottom: 200px;
+    margin-top: -300px;
+
+  }
+  #fondoVerde {
+    display: none;
+  }
+
+  /*SECCIÓN MID*/
+
+  section.cont-mid {
+    column-count: 2;
+    display: flex;
+    font-size: 5.6vw;
+    flex-direction: column;
+  }
+.verduras {
+    align-items: center;
+    column-count: 2;
+    display: flex;
+    flex-direction: column;
+    padding-top: 35px;
+}
+.verduras img {
+    width: 35%;
+    height: 35%;
+    padding-top: 2%;
+}
+.parrafo {
+  padding-top: 3%;
+  padding-left: 0;
+}
+.verduras p {
+    font-weight: lighter;
+    font-size: 3.5vw;
+    text-align: center;
+}
+.plato2M {
+    align-items: center;
+    column-count: 2;
+    display: flex;
+    flex-direction: column;
+    padding-top: 11%;
+}
+.plato2M img {
+    width: 35%;
+    height: 35%;
+    padding-top: 2%;
+}
+.plato2M p {
+    font-weight: lighter;
+    font-size: 3.5vw;
+    text-align: center;
+}
+.plato2 {
+  display: none;
+}
+.parrafo2 {
+  padding-top: 3%;
+  padding-left: 0;
+}
+.postres {
+    align-items: center;
+    column-count: 2;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+.postres img {
+    width: 32%;
+    height: 35%;
+    padding-top: 3%;
+}
+.postres p {
+    font-weight: lighter;
+    font-size: 3.5vw;
+    text-align: center;
+}
+.parrafo3 {
+  padding-top: 3%;
+  padding-left: 0;
+}
+
+  #elegirnos {
+    font-weight: normal;
+    font-size: 20px;
+  }
+.card {
+  font-family: 'Poppins', medium sans-serif;
+  padding-top: 3%;
+  margin-bottom: 11%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+      width: 54%;
+      height: 265px;
+
+  font-size: 3.5vw;
+}
+#congeladas {
+    width: 54%;
+    height: 40%;
+    padding-bottom: 8%;
+}
+.card h4 {
+  font-size: 3.8vw;
+}
+.card img {
+  width: 54%;
+  height: 47%;
+}
+.container p {
+  font-size: 3vw;
+}
+.cards {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.row {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.card-group1, .card-group2, .card-group3 {
+    overflow-x: scroll;
+}
+.card-group1, .card-group2, .card-group3 {
+    overflow-x: scroll;
+}
+.card-group1 {
+    max-width: 1150px;
+    display: flex;
+}
+.card-group1, .card-group2, .card-group3 {
+    place-items: center;
+}
+#comersano {
+  display: none;
+}
+#comersanoM {
+  font-size: 20px;
+}
+  .pasos {
+
+    column-count: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding-top: 20%;
+
+  }
+
+  /*ELEGI */
+  .elegi, .recibi, .disfruta {
+    font-family: 'Poppins', medium sans-serif;
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #elegiI {
+    width: 100%;
+    height: 100%;
+  }
+
+  #elegiT {
+    font-size: 4.2vw;
+    display: flex;
+  }
+
+  #elegiP {
+    font-size: 3.5vw;
+    text-align: center;
+  }
+
+  /*RECIBI */
+
+
+  #recibiI {
+    width: 100%;
+    height: 100%;
+  }
+
+  #recibiT {
+    font-size: 4.2vw;
+  }
+
+  #recibiP {
+    font-size: 3.5vw;
+    text-align: center;
+  }
+
+  /*DISFRUTA */
+
+
+  #disfrutaI {
+    width: 100%;
+    height: 100%;
+  }
+
+  #disfrutaT {
+    font-size: 4.2vw;
+  }
+
+  #disfrutaP {
+    font-size: 3.5vw;
+    text-align: center;
+  }
+
+  /*TEXTO FORMULARIO COMPLETA TUS DATOS*/
+  .textoForm {
+    font-family: 'Poppins', medium sans-serif;
+    text-align: center;
+    font-size: 4vw;
+  }
+
+  #descuento {
+    font-weight: lighter;
+    font-size: 3.7vw;
+  }
+
+  /*FORMULARIO*/
+
+  section.cont-form {
+    padding-top: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  /* Style the container */
+  #form {
+    border-radius: 50px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    display: block;
+    font-family: 'Poppins', medium sans-serif;
+    padding-bottom: 100px;
+
+    text-align: left;
+    width: 60%;
+
+  }
+  /* Style inputs, select elements and textareas */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    font-family: 'Poppins', medium sans-serif;
+  }
+
+  input[type=email], select, textarea {
+    width: 100%;
+    padding: 8px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    font-family: 'Poppins', medium sans-serif;
+  }
+  #veggie {
+    margin-bottom: 50px;
+    font-size: 3vw;
+  }
+
+  /* Style the label to display next to the inputs */
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-size: 3vw;
+    font-family: 'Poppins', medium sans-serif;
+  }
+
+  /* Style the submit button */
+  input[type=button] {
+    background-color: #66A415;
+    color: white;
+    margin-left: 50px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    font-size: 3.5vw;
+    font-family: 'Poppins', medium sans-serif;
+  }
+  input {
+    width: 100%;
+  }
+  /*FOOTER*/
+  .footer {
+    background-color: #66A415;
+    height: 90px;
+    font-family: 'Poppins', medium sans-serif;
+    display: flex;
+    width: 100%;
+  }
+
+  #textofooter {
+  color: #fff;
+  font-size: 13px;
+  margin-left: 10px;
+  text-align: center;
+  }
+
+  .mensaje {
+    display: none;
+    background-color: #AED65A;
+    z-index: 1000;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+
+  }
+
+  .x {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5%;
+    padding-top: 5%;
+  }
+
+  .x img {
+
+    width: 20px;
+    height: 20px;
+  }
+  .t-cont {
+      width: 90%;
+
+      font-size: 4vw;
+      text-align: center;
+      padding-top: 5%;
+      padding-bottom: 10%;
+  }
+
+  .texto {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      }
+  img#logo-agradecimiento {
+      width: 50px;
+      height: 50px;
+      padding-top: 100px;
+  }
+  .texto h5 {
+      color: #DCFBB5;
+      font-size: 3vw;
+      font-weight: lighter;
+    }
+    .t-cont h3 {
+    font-weight: lighter;
+    font-size: 3.5vw;
+}
+  #listo {
+    color: white;
+    font-family: 'Poppins', medium sans-serif;
+    align-content: center;
+    display: block;
+
+  }
+  #breve {
+    color: white;
+    font-family: 'Poppins', medium sans-serif;
+    align-content: center;
+  }
+  .logoGracias {
+    color: #DCFBB5;
+    font-family: 'Poppins', medium sans-serif;
+    align-content: center;
+  }
+
+}
